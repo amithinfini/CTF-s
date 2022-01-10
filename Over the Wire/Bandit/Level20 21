@@ -1,0 +1,18 @@
+There is a setuid binary in the homedirectory that does the following: 
+it makes a connection to localhost on the port you specify as a commandline argument. 
+It then reads a line of text from the connection and compares it to the password in the 
+previous level (bandit20). 
+If the password is correct, it will transmit the password for the next level (bandit21).
+
+
+ssh -p 2220 bandit20@bandit.labs.overthewire.org
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+
+ls -al
+
+# Terminal1- start the nc -l
+cat /etc/bandit_pass/bandit20 | nc -lp 6000
+
+# Terminal2 connect to the port using setuid file
+./suconnect 6000
