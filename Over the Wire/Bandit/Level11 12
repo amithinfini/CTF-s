@@ -3,3 +3,8 @@ where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 po
 
 ssh -p 2220 bandit11@bandit.labs.overthewire.org
 IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
+ls -alh
+file data.txt
+cat data.txt
+cat data.txt | tr "a-zA-Z" "n-za-mN-ZA-M"
