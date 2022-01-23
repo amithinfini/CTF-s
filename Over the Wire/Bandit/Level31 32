@@ -1,0 +1,6 @@
+There is a git repository at ssh://bandit31-git@localhost/home/bandit31-git/repo. 
+The password for the user bandit31-git is the same as for the user bandit31.
+
+
+ssh -p 2220 bandit31@bandit.labs.overthewire.org
+47e603bb428404d265f59c42920d81e5

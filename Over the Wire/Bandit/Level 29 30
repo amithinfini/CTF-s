@@ -1,0 +1,6 @@
+There is a git repository at ssh://bandit29-git@localhost/home/bandit29-git/repo. 
+The password for the user bandit29-git is the same as for the user bandit29
+
+
+ssh -p 2220 bandit29@bandit.labs.overthewire.org 
+bbc96594b4e001778eee9975372716b2
