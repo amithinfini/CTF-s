@@ -1,0 +1,7 @@
+ssh -p 2223 leviathan0@leviathan.labs.overthewire.org
+leviathan0
+
+
+ls -alh
+cd .backup/
+cat bookmarks.html | grep leviathan1

@@ -1,0 +1,14 @@
+ssh -p 2223 leviathan1@leviathan.labs.overthewire.org
+rioGegei8m
+
+
+ls -alh
+./check
+
+ltrace ./check
+
+./check
+sex
+
+whoami
+cat /etc/leviathan_pass/leviathan2
