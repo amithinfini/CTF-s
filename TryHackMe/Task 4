@@ -1,0 +1,9 @@
+# Security through obscurity
+
+
+Download the image file
+Read the content of file
+
+cat meme.jpg
+strings meme.jpg
+binwalk -e meme.jpg

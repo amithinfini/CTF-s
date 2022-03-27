@@ -1,0 +1,6 @@
+# Steganography
+
+Download the image
+# steghide extract -sf stegosteg.jpg
+
+A txt file will be created with the flag in it.

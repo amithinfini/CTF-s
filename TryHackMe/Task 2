@@ -1,0 +1,11 @@
+# Spectrograms
+
+
+Download Sonic Visualiser from https://www.sonicvisualiser.org/download.html
+make the downloaded file excutable
+"chmod 744 <file name>"
+
+Run the program
+Pull and drop the downloaded audio file into the sonicvisualiser
+
+Add Spectrogram Layer & Adjust the Horizontal and Vertical Zoom to view the Flag.
