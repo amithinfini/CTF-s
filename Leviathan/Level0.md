@@ -1,3 +1,5 @@
+Save the login password: **leviathan0** in a file called  *leviathan0*
+
 To Login:
 ```bash
 sshpass -p $(cat leviathan0) ssh -p 2223 leviathan0@leviathan.labs.overthewire.org
